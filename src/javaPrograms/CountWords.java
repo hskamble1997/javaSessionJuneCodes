@@ -1,6 +1,7 @@
 package javaPrograms;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class CountWords {
 
@@ -28,5 +29,6 @@ public class CountWords {
 		hmap.forEach((K,V) -> System.out.println(K +" : "+V));
 		
 	}
-
+	
+	
 }
