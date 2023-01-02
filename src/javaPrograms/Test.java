@@ -6,16 +6,16 @@ public class Test {
 	{
 		
 		int[] arr = {92,7,12,9,8,3};
-		int maxx = arr[arr.length-1];
+		int max = arr[arr.length-1];
 		
 		int l = arr.length;
-		System.out.println(maxx);
+		System.out.println(max);
 		for(int i = l-2; i>=0; i--)
 		{
-			if(arr[i] > maxx)
+			if(arr[i] > max)
 			{
 				System.out.println(arr[i]);
-				maxx = arr[i];
+				max = arr[i];
 			}
 			
 		}
